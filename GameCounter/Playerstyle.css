@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 270px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255,255,255,0.1);
+    transition: transform 0.2s;
+    background-color: black;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 50px; /* Adjust width as needed */
+    height: 50%; /* Maintain the aspect ratio */
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.card-text {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: #fffdfd;
+    margin: 0;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid white; /* White borders for the table cells */
+    padding: 12px;
+    text-align: left;
+    background-color: #000000; /* Background color for the table cells */
+    color: white;
+}
+
+th {
+    background-color: #000000; /* Different background color for the header */
+}

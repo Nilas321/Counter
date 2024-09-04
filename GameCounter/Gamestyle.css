@@ -1,0 +1,23 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid white; /* White borders for the table cells */
+    padding: 12px;
+    text-align: left;
+    background-color: #000000; /* Background color for the table cells */
+    color: white;
+}
+
+th {
+    background-color: #000000; /* Different background color for the header */
+}

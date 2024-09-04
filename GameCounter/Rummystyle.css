@@ -1,0 +1,94 @@
+.Title{
+    text-align: center;
+}
+
+body{
+    opacity: 0.7;
+    background-color:white;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(klim-musalimov-2BIvs_r77-E-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover, a:visited, a:link, a:active 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.Newgamecard{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    transition: transform 0.2s;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.Continuegamecard{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    transition: transform 0.2s;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.Playerscard{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    transition: transform 0.2s;
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+
+.Newgamecard:hover {
+    transform: scale(1.03);
+}
+
+.Continuegamecard:hover {
+    transform: scale(1.03);
+}
+
+.Playerscard:hover {
+    transform: scale(1.03);
+}
+
