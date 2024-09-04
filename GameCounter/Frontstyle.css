@@ -1,0 +1,76 @@
+@font-face {
+    font-family: A;
+    src: url("Allura\,Sevillana/Allura/Allura-Regular.ttf");
+    
+}
+
+@font-face {
+    font-family: B;
+    src: url("Allura\,Sevillana/Sevillana/Sevillana-Regular.ttf");
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: A;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: A;
+    text-wrap: balance;
+    margin-top: -30px;
+    margin-left: 250px;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-text {
+    font-size: 25PX;
+    color: white;
+    margin: 10px;
+    font-family: B;
+    text-align: center;
+}
+
+body{
+
+    opacity: 0.7;
+    background-color:white;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url(house-of-cards-3894985_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 20px;
+}
