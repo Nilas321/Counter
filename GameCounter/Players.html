@@ -14,20 +14,24 @@
           <p class="card-text">Add new players</p>
       </a>  
     </div>
-    <div class = "table">
-        <table>
-            <tr>
-              <th>Player Name</th>
-              <th>Lifetime Points</th>
-              <th>Wins</th>
-              <th>Losses</th>
-            </tr>
-          <tbody id="table-body"></tbody>
-          </table>
-    </div>
-    <a href = "Game.html"><button>Start Game</button></a>
+    <div class="table">
+  <form id="playerForm">
+    <table>
+      <tr>
+        <th>Select</th>
+        <th>Player Name</th>
+        <th>Lifetime Points</th>
+        <th>Wins</th>
+        <th>Losses</th>
+      </tr>
+      <tbody id="table-body"></tbody>
+    </table>
+    <button type="button" onclick="startGame()">Start Game</button>
+  </form>
+</div>
     <a href = "Title.html"><button>Home</button></a>
     <a href = "#" onclick="deletePlayer()"><button>deletePlayer</button></a>
+    <a href="#" onclick="resetPlayerData()"><button>Reset Player Data</button></a>
 </body>
 <script src = "Players.js"></script>
 </html>

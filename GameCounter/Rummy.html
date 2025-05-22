@@ -10,11 +10,11 @@
 <body>
     <div class="card">
     <div class = "Newgamecard">
-        <a href="Game.html" >
+        <a href="Players.html" >
         <p class = "ngtext">New Game</p>
     </div>
     <div class = "Continuegamecard">
-        <a href="Game.html" >
+        <a href="Game.html" onclick="resumeExistingGame()" id="resumeBtn" style="display: none;">
         <p class = "cgtext">Continue Game</p>
     </div>
     <div class = "Playerscard">
@@ -23,5 +23,17 @@
     </div>
 </div>
 <a href = "Title.html"><button>Home</button></a>
+<script>
+    function resumeExistingGame() {
+        // Just navigates — state already in localStorage
+    }
+
+    // Show button if game in progress
+    window.onload = function () {
+        if (localStorage.getItem("gameInProgress") === "true") {
+            document.getElementById("resumeBtn").style.display = "inline-block";
+        }
+    }
+</script>
 </body>
 </html>
